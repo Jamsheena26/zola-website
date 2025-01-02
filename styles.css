@@ -1,0 +1,326 @@
+:root {
+    --zola-teal: #5CC7C8;
+    --zola-red: #C41E3A;
+}
+
+body {
+    zoom: 0.9;
+}
+
+.top-banner {
+    background-color: var(--zola-red);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.top-banner span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-brand img {
+    height: 25px;
+}
+
+.hero-section {
+    /* background-color: #E8EFF1; */
+    background: url("assets/img2.png");
+    background-size: cover;
+    background-position: bottom;
+    padding: 100px 0;
+    /* min-height: 500px; */
+    position: relative;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .top-banner {
+        zoom: 0.6;
+    }
+    .hero-section {
+        padding: 40px 0;
+        padding-top: 80px;
+    }
+
+    .product-display {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .hero-content {
+        margin-bottom: 40px;
+    }
+
+    .navbar-brand img {
+        height: 20px;
+    }
+
+    .navbar {
+        zoom: 0.7;
+    }
+}
+
+.registry-btn {
+    background-color: var(--zola-teal);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.registry-btn:hover {
+    background-color: #4BB5B6;
+    color: white;
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+}
+
+.cake-topper {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+    width: 100px;
+}
+
+.product-display {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.icon {
+    color: #4BB5B6;
+}
+
+u {
+    text-decoration-color: #f82a4c;
+    text-decoration-thickness: 2px;
+}
+
+/* brands section */
+.brands-section {
+    padding: 60px 0;
+    background-color: #325F80;
+    color: #fff;
+}
+
+.brand-card {
+    /* background-color: #fff; */
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.brand-card img {
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+/* .brand-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #24364f;
+} */
+
+@media (max-width: 767px) {
+    .brands-section {
+        padding: 40px 0;
+    }
+    .brand-card img {
+        width: 70%;
+    }
+}
+
+
+/* ratings section */
+.google-ratings-section {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+}
+
+.rating-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.rating-card img {
+    width: 80px;
+    height: 80px;
+}
+
+.rating-card h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.rating-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.rating-card .fa-star {
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+/* wedding section */
+.wedding-website-section {
+    padding: 80px 0;
+    background-color: #f5f5f5;
+    background: url("assets/section2.png");
+    background-size: cover;
+    min-height: 700px;
+}
+
+.wedding-website-section .text-section {
+    height: 500px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.wedding-website-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.wedding-website-section p {
+    font-size: 16px;
+    color: #666;
+}
+
+.wedding-website-section .btn-primary {
+    background-color: #4DB6AC;
+    border-color: #4DB6AC;
+}
+
+.wedding-website-section .btn-primary:hover {
+    background-color: #00897B;
+    border-color: #00897B;
+}
+
+/* features section */
+.features-section {
+    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+
+.features-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.feature-card {
+    /* background-color: #fff; */
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.feature-card i {
+    color: #4DB6AC;
+}
+
+.feature-card h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.feature-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* registry section */
+.registry-cta-section {
+    padding: 80px 0;
+    background-color: #325F80;
+    color: #fff;
+}
+
+.registry-cta-section h2 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.registry-cta-section .btn-primary {
+    background-color: #4DB6AC;
+    border-color: #4DB6AC;
+}
+
+.registry-cta-section .btn-primary:hover {
+    background-color: #00897B;
+    border-color: #00897B;
+}
+
+.end-small {
+    font-size: 10px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .registry-cta-section {
+        padding: 60px 0;
+    }
+
+    .registry-cta-section h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .features-section {
+        padding: 60px 0;
+    }
+
+    .features-section h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .features-section {
+        padding: 60px 0;
+    }
+
+    .features-section h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wedding-website-section {
+        padding: 60px 0;
+    }
+
+    .wedding-website-section h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .google-ratings-section {
+        padding: 40px 0;
+    }
+}

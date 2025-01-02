@@ -1,4 +1,4 @@
 # zola-website
 
 ### DEMO: 
-zola-website.netlify.app
+https://zola-website.netlify.app
